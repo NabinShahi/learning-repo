@@ -1,0 +1,81 @@
+.container {
+  padding: 5px 20px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  width: 75%;
+}
+
+.container form fieldset {
+  margin: 20px 0;
+}
+
+.container input {
+  width: 75%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.address__info,
+.contact__info {
+  display: flex;
+}
+
+.student__info input,
+.student__info label {
+  margin: 0 10px;
+}
+
+.contact__info input {
+  margin: 0 10px;
+}
+
+.parents__info div {
+  display: flex;
+}
+
+.parents__info input,
+.parents__info label {
+  margin: 0 10px;
+}
+
+.checkbox input {
+  width: 15px;
+  height: 15px;
+}
+
+.form button {
+  width: 100px;
+  height: 40px;
+  background-color: #00ffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container .goToTop {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: calc(50% - 50px);
+  background-color: #00ffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.container button a {
+  text-decoration: none;
+}
