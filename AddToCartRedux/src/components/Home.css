@@ -1,0 +1,13 @@
+.home__navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home__products {
+    display: flex;
+}
+
+.home__cart:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
